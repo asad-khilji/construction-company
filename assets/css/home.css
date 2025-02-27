@@ -71,6 +71,68 @@
     overflow: hidden;
   }
 
+  #our-work {
+     text-align: center;
+     color: black;
+     line-height: 2;
+  }
+
+  #our-work h2 {
+    margin-top: -50px;
+  }
+
+  #our-work .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #our-work .col-3 {
+    flex-basis: 33.3%;
+    padding: 20px;
+  }
+
+  #our-work .col-3 img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  #reviews .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #reviews {
+    text-align: center;
+    line-height: 2;
+  }
+
+  #reviews .col-3 {
+    flex-basis: 33.3%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #our-services .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #our-services {
+    text-align: center;
+    line-height: 2;
+  }
+
+  #our-services .col-3 {
+    flex-basis: 33.3%;
+    text-align: center;
+    padding: 20px;
+  }
+
   @media (max-width: 768px) {
     .hero-cta h2 {
         font-size: 25px;
@@ -83,6 +145,22 @@
 
     .btn-1 {
         margin-left: -50px;
+    }
+
+    #our-work h2 {
+      margin-top: 25px;
+    }
+
+    #our-work .col-3 {
+      flex-basis: 50%;
+    }
+
+    #reviews .col-3 {
+      flex-basis: 50%;
+    }
+
+    #our-services .col-3 {
+      flex-basis: 50%;
     }
 
   }
@@ -100,6 +178,17 @@
     #about-us .col-2 h2 {
         flex-basis: 100%;
         margin-top: -150px;
+    }
+
+    #our-work .col-3 {
+      flex-basis: 100%;
+    }
+    #reviews .col-3 {
+      flex-basis: 100%;
+    }
+
+    #our-services .col-3 {
+      flex-basis: 100%;
     }
   }
 
