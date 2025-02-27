@@ -47,15 +47,11 @@ const createNav = () => {
                 <span>Services</span>
             </div>
             </a>
+            <a href="#areas">
             <div class="dropdown">
                 <span>Areas</span>
-                <div class="dropdown-content">
-                  <a href="#"><p>Roxbury, NJ</p></a>
-                  <a href="#"><p>Warren, NJ</p></a>
-                  <a href="#"><p>Westfield, NJ</p></a>
-                  <a href="#"><p>Chester, NJ</p></a>
-                </div>
             </div>
+            </a>
             <a href="#projects">
             <div class="dropdown">
                 <span>Projects</span>
@@ -66,12 +62,12 @@ const createNav = () => {
                 <span>Reviews</span>
             </div>
             </a>
-            <a href="#contact-us">
+            <a href="#contact">
             <div class="dropdown">
                 <span>Contact Us</span>
             </div>
             </a>
-            <a href="#contact-us">
+            <a href="#free-estimate">
              <div class="dropdown">
                 <span>Free Estimates</span>
             </div>
@@ -88,14 +84,14 @@ const createFooter = () => {
     footer.innerHTML = `
         <div class="row">
             <div class="col-4">
-                <h1>Somnium <br>Home</h1>
+                <a href="index.html"><h1>Somnium <br>Home</h1></a>
             </div>
             <div class="col-4">
                 <h3>QUICK LINKS</h3>
                 <a href="index.html"><p>Home</p></a>
                 <a href="#about-us"><p>About Us</p></a>
                 <a href="#reviews"><p>Reviews</p></a>
-                <a href="#contact-us"><p>Contact</p></a>
+                <a href="#contact"><p>Contact</p></a>
             </div>
             <a href="#our-services">
             <div class="col-4">
