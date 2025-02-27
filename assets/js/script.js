@@ -108,6 +108,14 @@ const createFooter = () => {
                 <p>📍 Roxbury Township, NJ</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-2">
+                <p class="left">&copy; 2025 Somnium Home</p>
+            </div>
+            <div class="col-2">
+                <a href="privacy-policy.html"><p>Privacy Policy</p></a>
+            </div>
+        </div>
     `;
 }
 

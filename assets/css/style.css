@@ -27,6 +27,7 @@ nav {
     color: white;
     padding: 5px;
     padding-left: 50px;
+    min-height: 30px;
 }
 
 nav a {
@@ -104,12 +105,30 @@ nav a {
   footer .col-4 {
     flex-basis: 25%;
   }
+  
+  footer .col-2 {
+    flex-basis: 50%;
+  }
+
+  footer .col-2 p {
+    text-align: right;
+  }
+
+  footer .col-2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer .col-2 .left {
+    text-align: left;
+    margin-left: -50px;
+  }
 
 @media(max-width: 768px) {
     header .col-4 {
         flex-basis: 50%;
     }
-    nav {
+    nav a {
         display: none;
     }
 
