@@ -14,11 +14,11 @@ const createHeader = () => {
         </div>
         <div class"col-4">
             <h3>Phone</h3>
-            <p>231-234-4567</p>
+            <p>862.223.0358</p>
         </div>
         <div class"col-4">
             <h3>Email</h3>
-            <p>service@email.com</p>
+            <p>somnium_home@icloud.com</p>
         </div>
     </div>
     </header>
@@ -104,8 +104,8 @@ const createFooter = () => {
             </div>
             <div class="col-4">
                 <h3>CONTACT</h3>
-                <a href="#"><p>📞 908-546-5678</p></a>
-                <a href="#"><p>✉️ service@email.com</p></a>
+                <a href="#"><p>📞 862.223.0358</p></a>
+                <a href="#"><p>✉️ somnium_home@icloud.com</p></a>
                 <a href="#"><p>📍 Roxbury Township, NJ</p></a>
             </div>
         </div>
