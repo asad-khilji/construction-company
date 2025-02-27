@@ -116,7 +116,7 @@ nav a {
 @media(max-width: 500px) {
     header .col-4 {
         flex-basis: 100%;
-        padding: 10px;
+        padding: 20px;
     }
 
     footer .col-4 {
