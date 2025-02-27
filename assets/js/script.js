@@ -10,11 +10,11 @@ const createHeader = () => {
         </div>
         <div class"col-4">
             <h3>Address</h3>
-            <p>Roxbury Township</p>
+            <p>Roxbury Township</p><br>
         </div>
         <div class"col-4">
             <h3>Phone</h3>
-            <p>862.223.0358</p>
+            <p>862.223.0358</p><br>
         </div>
         <div class"col-4">
             <h3>Email</h3>
